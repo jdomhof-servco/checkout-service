@@ -1,4 +1,10 @@
 deployments:
+  deploymentGating:
+    enabled: true
+    retry: 50
+    sleep: 30
+    environments:
+      - Production
   services:
     ids:
       - b:YXJpOmNsb3VkOmdyYXBoOjpzZXJ2aWNlLzliODIwN2ZhLTUwOWYtNGY5NC1hMjgzLWE5MjJhYmIxYjIyZS9kZGQwMzhkNi1jNmUyLTExZjEtYmFjZS0xMjJlYmQ0ODczY2Y=
